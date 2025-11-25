@@ -40,3 +40,44 @@ function greet(name){
 
 let a = greet("Lucky");
 console.log(a)
+
+
+// Types of function
+
+// 1. Function DEclaration(normal function)
+// Declared with the function keyword,can be hoisted.
+
+function greet(){
+    console.log("hello")
+}
+
+
+
+// 2.Function Expression
+// Stored in a variable; not hoisted
+
+const greet = function(){
+    console.log("hello")
+}
+
+// 3.Arrow function(fat arrow function)
+// Shorter syntax ,introduced in ES6
+
+() => {
+    console.log("hello")
+}
+
+
+// 4.Anonymous Function
+// A function without a name,often used in expressions
+setTimeout(function () {
+    console.log("hello")
+}, 2000);
+
+
+
+// 5.IIFE(Immediately Invoked Function EXpression)
+// A function that runs as soon as it's defined
+(function(){
+    comsole.log("hello")
+}) ()
