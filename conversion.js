@@ -333,3 +333,308 @@
 // bill /= 4;
 // console.log(bill)
 
+
+// 6. Comparison Operators
+// Predict the result.
+// Task 51
+// 10 > 5
+// console.log(10>5)
+
+
+// Task 52
+// 10 < 5
+// console.log(10<5)
+
+
+// Task 53
+// 10 >= 10
+// console.log(10>=10)
+
+
+// Task 54
+// 15 <= 12
+// console.log(15 <= 12)
+
+
+// Task 55
+// 20 == "20"
+
+
+// Task 56
+// 20 === "20"
+
+
+// Task 57
+// console.log(null == undefined)
+
+
+// Task 58
+// null === undefined
+// console.log(null === undefined)
+
+
+// Task 59
+// 5 != "5"
+// console.log(5 != "5")
+
+// Task 60
+// 5 !== "5"
+// console.log(5 !== "5")
+
+
+// 7. Logical Operators
+// Predict the output.
+// Task 61
+// true && false
+// console.log(true && false)
+
+
+// Task 62
+// true || false
+// console.log(true || false)
+
+// Task 63
+// !true
+// console.log(!true)
+
+
+// Task 64
+// 10 > 5 && 20 > 10
+// console.log(10 > 5 && 20 > 10)
+
+
+// Task 65
+// 10 > 15 || 20 > 10
+// console.log(10 > 15 || 20 > 10)
+
+
+// Task 66
+// !(10 > 5)
+// console.log(!(10 > 5))
+
+
+// Task 67
+// Check if age is between 18 and 60.
+// let age = 5;
+// if (age >= 18 && age <= 60){
+//     console.log("yes it is between 18 and 60 ")
+// }else{
+//     console.log("its not between 18 and 60")
+// }
+
+// Task 68
+// Check if a student passed in English and Math.
+// let english = 40;
+// let math = 55;
+// let passingMarks = 30;
+// if(english >= passingMarks && math >= passingMarks){
+//     console.log("passed in both  ")
+// }else{
+//     console.log("failed in exam")
+// }
+
+
+// Task 69
+// Check if a number is positive and even.
+// num = 10
+// if (num > 0 && num % 2 === 0){
+//     console.log("positive and even no")
+// }
+
+// Task 70
+// Check if today is Saturday or Sunday.
+// let today = "Saturday";
+
+// if (today === "Saturday" || today === "Sunday") {
+//     console.log(`Today is ${today}`);
+// } else {
+//     console.log("Today is a weekday.");
+// }
+
+// 8. == vs ===
+
+// Predict the output.
+// Task 71
+// 5 == "5"
+// console.log(5 == "5")
+
+
+// Task 72
+// 5 === "5"
+// console.log(5  === "5")
+
+
+// Task 73
+// 0 == false
+// console.log(0 == false) 
+
+
+// Task 74
+// 0 === false
+// console.log(0 === false)    
+
+
+// Task 75
+// "" == false
+// console.log("" == false)
+
+
+// Task 76
+// "" === false
+//console.log("" === false)
+
+
+// Task 77
+// null == undefined
+//console.log(null == undefined)  
+
+
+// Task 78
+// null === undefined
+// console.log(null === undefined) 
+
+
+// Task 79
+// true == 1
+// console.log(true == 1)
+
+// Task 80
+// true === 1
+// console.log(true === 1)
+
+
+
+
+
+// 9. != vs !==
+// Task 81
+// 5 != "5"
+// console.log(5 != "5")
+
+
+// Task 82
+// 5 !== "5"
+// console.log(5 !== "5")
+
+
+// Task 83
+// null != undefined
+// console.log(null != undefined)
+
+
+// Task 84
+// null !== undefined
+// console.log(null !== undefined)
+
+
+// Task 85
+// false != 0
+// console.log(false != 0)
+
+
+// Task 86
+// false !== 0
+// console.log(false !== 0)
+
+
+
+
+
+// 10. Increment & Decrement (++/--)
+// Task 87
+// let x = 5;
+// x++;
+// console.log(x);
+
+
+// Task 88
+// let x = 5;
+// ++x;
+// console.log(x);
+
+
+// Task 89
+// Predict the output.
+// let x = 10;
+// console.log(x++);
+// console.log(x);
+
+
+// Task 90
+// Predict the output.
+// let x = 10;
+// console.log(++x);
+
+
+// Task 91
+// let x = 20;
+// console.log(--x);
+
+
+// Task 92
+// let x = 20;
+// console.log(x--);
+// console.log(x);
+
+
+// let x = 20;
+
+// console.log(++x);
+// console.log(x++);
+// console.log(x);
+
+
+// let x = 10;
+
+// console.log(x++);
+// console.log(++x);
+// console.log(x);
+
+
+// let a = 5;
+// let b = a++;
+
+// console.log(a);
+// console.log(b);
+
+
+
+// let a = 5;
+// let b = ++a;
+
+// console.log(a);
+// console.log(b);
+
+
+// let x = 10;
+
+// console.log(x--);
+// console.log(--x);
+// console.log(x);,
+
+
+// let x = 5;
+
+// console.log(x++ + ++x);
+
+
+
+
+// 11. Ternary Operator
+// Task 93
+// Print "Adult" if age ≥ 18.
+
+// Task 94
+// Print the greater of two numbers.
+
+// Task 95
+// Check if a number is even or odd.
+
+// Task 96
+// Check if marks are pass (≥40).
+
+// Task 97
+// Print "Positive" or "Negative".
+
+// Task 98
+// Print "Logged In" if isLoggedIn is true.
