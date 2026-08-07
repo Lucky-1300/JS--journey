@@ -740,3 +740,5 @@
 // Task 114
 // let value = "JavaScript";
 // console.log(value && value.length);
+
+
