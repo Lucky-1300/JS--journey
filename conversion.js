@@ -623,18 +623,120 @@
 // 11. Ternary Operator
 // Task 93
 // Print "Adult" if age ≥ 18.
+// let age = 50;
+// let result = age >= 18 ? "adult" :"minor";
+// console.log(result)
+
 
 // Task 94
 // Print the greater of two numbers.
+// let num1 = 4;
+// let num2 = 8;
+// let max = num1 > num2 ? num1 : num2;
+// console.log(max)
 
 // Task 95
 // Check if a number is even or odd.
+// let num = 6;
+// let check = num % 2 === 0?"even":"odd";
+// console.log(check)
 
 // Task 96
 // Check if marks are pass (≥40).
+// let marks = 30;
+// let pass = marks >= 40? "pass":"fail";
+// console.log(pass)
 
 // Task 97
 // Print "Positive" or "Negative".
+// let num = -1;
+// let check = num > 0 ?"positive":"negative";
+// console.log(check)
 
 // Task 98
 // Print "Logged In" if isLoggedIn is true.
+// let password = 12375;
+// let check = password === 12345? "loggedIn":"wrong password";
+// console.log(check)
+
+
+// 12. Operator Precedence
+// Predict the result.
+// Task 99
+// 2 + 3 * 4
+// console.log(2 + 3 * 4)
+
+
+// Task 100
+// (2 + 3) * 4
+// console.log((2 + 3) * 4)
+
+
+// Task 101
+// 20 / 5 + 2
+// console.log(20 / 5 + 2)
+
+// Task 102
+// 5 + 2 ** 3
+// console.log(5 + 2 ** 3)
+
+// Task 103
+// 10 > 5 && 5 > 8
+// console.log(10 > 5 && 5 > 8)
+
+
+
+// Task 104
+// true || false && false
+// console.log(true || false && false)
+
+
+
+
+// 13. Short-Circuit Evaluation
+// Predict the output.
+// Task 105
+// console.log(true && "Hello");
+
+
+
+// Task 106
+// console.log(false && "Hello");
+
+
+// Task 107
+// console.log(true || "World");
+
+
+// Task 108
+// console.log(false || "World");
+
+
+// Task 109
+// let username = "";
+// console.log(username || "Guest");
+
+
+// Task 110
+// let name = "Lucky";
+// console.log(name || "Guest");
+
+
+// Task 111
+// let isLoggedIn = true;
+// console.log(isLoggedIn && "Welcome");
+
+
+// Task 112
+// let cart = 5;
+// console.log(cart > 0 && "Checkout");
+
+
+// Task 113
+// let value = null;
+// console.log(value || 100);
+
+
+// Task 114
+// let value = "JavaScript";
+// console.log(value && value.length);
